@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Invitation Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplycountdown.js@1.5.0/dist/simplyCountdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="hero" class="hero">
+        <main class="main-content">
+            <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+            <h1>Alex Vidal & Agnez Monica</h1>
+            <p>Akan melakukan resepsi pernikahan dalam:</p>
+            <div id="countdown" class="countdown"></div>
+            <a href="#undangan" class="btn">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar bg-body-transparent sticky-top navbar-expand-md mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Invitation</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Invitation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#info">info</a>
+                        <a class="nav-link" href="#story">story</a>
+                        <a class="nav-link" href="#galerry">galeri</a>
+                        <!-- <a class="nav-link" href="#rsvp">rsvp</a> -->
+                        <a class="nav-link" href="#gift">gift</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+ 
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>diselenggarakan pada 20 desember 2025 di subang, jawa barat</h3>
+                    <p>oleh karena itu dengan segala hormat, kami bermaksud untuk mengundang bapak/ibu, saudara/i, untuk hadir pada hari acara pernikahan kami</p>
+                </div>
+            </div>
+
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Alex Vidal</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem possimus cum explicabo dignissimos soluta.</p>
+                            <p>putra dari bapak lorem <br> dan <br> ibu ipsum</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/man.png" alt="alex vidal" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/woman.png" alt="agnez monica" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Agnez Monica</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem possimus cum explicabo dignissimos soluta.</p>
+                            <p>putri dari bapak dolor <br> dan <br> ibu amet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="info" class="info mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat : Jl. Contoh No. 123, Subang, Jawa Barat</p>
+                    <a href="https://maps.app.goo.gl/LD7VtuBpDWZG229N7" target="_blank" class="btn btn-light btn-sm my-3">Lihat di Google Maps</a>
+                    <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Mana kala tiba ditujuan namun tidak ada tanda tanda sedang dilangsungkan pernikahan boleh jadi anda salah jadwal atau salah tempat.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light mb-5">
+                        <div class="card-header">Akad Nikah</div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>08.00 - 10.00</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar d-block"></i>
+                                    <span>minggu 20 november 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyukan acara seluruh prosesi
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">Resepsi</div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <span>11.00 - selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span>minggu 20 november 2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-body-secondary">
+                            saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyukan acara seluruh prosesi
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>bagaimana cinta kami bersemi</span>
+                    <h2>Cerita Kami</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque incidunt consequuntur quis, ex repudiandae vero?</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image" style="background-image: url(img/time.jpg);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pertama Bertemu</h3>
+                                    <span>1 juli 1935</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum obcaecati, ad minus dolore esse molestiae!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background-image: url(https://picsum.photos/200/300);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Mulai Serius</h3>
+                                    <span>5 mei 2077</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quo. Minus quas animi et praesentium magni vitae modi?</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Tunangan</h3>
+                                    <span>1 agustus 2080</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, eius consequatur. Voluptate eligendi optio veniam.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galerry" class="galerry py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <p class="lead">memori kami</p>
+                    <h2>Galeri</h2>
+                    <p class="lead">Beberapa momen indah kami</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-12 col-lg-6">
+                    <img src="https://picsum.photos/1200/800?random=1" alt="Gallery image" class="img-fluid rounded-3 shadow">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="https://picsum.photos/1200/800?random=2" alt="Gallery image" class="img-fluid rounded-3 shadow">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="https://picsum.photos/800/600?random=3" alt="Gallery image" class="img-fluid rounded-3 shadow">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="https://picsum.photos/800/600?random=4" alt="Gallery image" class="img-fluid rounded-3 shadow">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="https://picsum.photos/800/600?random=5" alt="Gallery image" class="img-fluid rounded-3 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gift" class="gift py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Hadiah Pernikahan</h2>
+                    <p class="lead">Bagi yang ingin memberikan hadiah, kami menyediakan beberapa pilihan:</p>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12">
+                    <!-- Slider main container -->
+                    <div class="swiper giftSwiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Transfer Bank</h5>
+                                        <div class="bank-info">
+                                            <p><strong>Bank BCA</strong></p>
+                                            <p>1234 5678 9012</p>
+                                            <p>a.n. Alex Vidal & Agnez Monica</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">E-Wallet</h5>
+                                        <div class="bank-info">
+                                            <p><strong>DANA</strong></p>
+                                            <p>0812 3456 7890</p>
+                                            <p>a.n. Alex Vidal</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Barang</h5>
+                                        <p>Kami juga menerima hadiah berupa barang. Silahkan hubungi kami untuk info lebih lanjut.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card h-100">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Amplop</h5>
+                                        <p>Anda juga bisa memberikan hadiah berupa amplop pada hari resepsi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="text-muted">*Terima kasih atas doa dan restunya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <h5>Alex & Agnez</h5>
+                    <p>20 Desember 2025</p>
+                    <p>Subang, Jawa Barat</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <h5>Kontak Kami</h5>
+                    <p>Alex: 0812 3456 7890</p>
+                    <p>Agnez: 0898 7654 3210</p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Undangan Pernikahan Alex & Agnez. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simplycountdown.js@1.5.0/dist/simplyCountdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        simplyCountdown('#countdown', {
+            year: 2025,
+            month: 12,
+            day: 25,
+            hours: 8,
+            words: {
+                days: 'Hari',
+                hours: 'Jam',
+                minutes: 'Menit',
+                seconds: 'Detik',
+            },
+        });
+
+        // Initialize Swiper
+        const swiper = new Swiper('.giftSwiper', {
+            // Optional parameters
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            centeredSlides: true,
+            
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 2,
+                },
+                // when window width is >= 992px
+                992: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        const hamburger = document.querySelector('.navbar-toggler');
+        const stickytop = document.querySelector('.sticky-top');
+
+        hamburger.addEventListener('click', () => {
+            stickytop.style.overflow = 'visible';
+        });
+
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', () => {
+            stickytop.style.overflow = 'hidden';
+        });
+    </script>
+</body>
+</html>
